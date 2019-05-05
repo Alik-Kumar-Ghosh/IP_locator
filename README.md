@@ -8,7 +8,7 @@ fetch('your url')
   .then(function(myJson) {
     console.log(myJson);
   }); ```
->what all it shows 
+>what all it shows<
 1.Ip query status :
 2.Country :
 3.City :
@@ -25,4 +25,4 @@ fetch('your url')
 ![screenshot1](https://github.com/alikthehacker/IP_locator/blob/master/images/screenshot1.jpg)
 ![screenshot2](https://github.com/alikthehacker/IP_locator/blob/master/images/screenshot2.jpg)
 
-There is no overall limit in query.
+There is no overall limit on query.
