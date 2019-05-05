@@ -1,2 +1,2 @@
 # IP_locator
-website to locate your ip address loaction
+Website to locate your ip address loaction
