@@ -26,7 +26,8 @@ fetch('your url')
 11.Zip <br>
 12.Org <br>
 
-![screenshot1](https://github.com/alikthehacker/IP_locator/blob/master/images/screenshot1.jpg)
+![screenshot1](https://github.com/alikthehacker/IP_locator/blob/master/images/screenshot1.jpg)<br>
+<br>
 ![screenshot2](https://github.com/alikthehacker/IP_locator/blob/master/images/screenshot2.jpg)
 
 >There is no overall limit on query.
