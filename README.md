@@ -1,13 +1,16 @@
 # IP_locator
 Website to locate your ip address loaction
-It is super fast and most importantly it uses new ES6 concept of fetch() rather than traditional ajax xml http request ```javascript
+It is super fast and most importantly it uses new ES6 concept of fetch() rather than traditional ajax xml http request 
+
+```javascript
 fetch('your url')
   .then(function(response) {
     return response.json();
   })
   .then(function(myJson) {
     console.log(myJson);
-  }); ```
+  }); 
+  ```
 >what all it shows
 
 1.Ip query status :
