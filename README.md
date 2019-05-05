@@ -1,6 +1,8 @@
 # IP_locator
 ### Website to locate your ip address loaction
-
+***
+[https://alikthehacker.github.io/IP_locator/](https://alikthehacker.github.io/IP_locator/)
+***
 It is super fast and most importantly it uses new ES6 concept of fetch() rather than traditional ajax xml http request 
 
 ```javascript
