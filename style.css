@@ -1,0 +1,122 @@
+body{
+  background-color: rgb(240, 239, 239)
+}
+  #img1{
+    width: 90px;
+    align-content: center;
+    display:block;
+    margin :auto ;
+    position: relative;
+    box-shadow: 10px 9px 5px rgb(2, 51, 92);
+  }
+  #intro {
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 5px;
+    font-weight:bold;
+    color:darkgreen; 
+    background-color: #bbeedd;
+    text-align:center;
+    margin:20px;
+    box-shadow: 10px 5px 5px rgb(11, 131, 17);
+     }
+  #container {
+    position:relative;
+    border:1px solid rgb(141, 119, 119);
+    border-radius:8px;
+    background-color:#bbeecc;
+    margin: 6%;
+    box-shadow: 10px 10px 5px rgb(119, 115, 115);
+    }
+  p  {
+    border:1px solid lightgray;
+    border-radius:5px;
+    text-indent:6px;
+    font-weight:bold;
+    color:darkgreen;
+    margin:5px;
+    text-align:center;
+    }
+  #input1, #input2, #input3, #input4 {
+    border:1px solid green;
+    border-radius:5px;
+    display:inline;
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+    color:darkgreen;
+    margin:auto;
+    width:50px;
+    height:25px;
+    
+    
+    }
+  #whbutt{
+        left:90%;
+        text-align:center;
+      height:30px;
+      width:100px;
+      margin:10px 5px 10px 70px;
+      display: block;
+    }
+  #butt {
+    /*position:absolute;*/
+      left:90%;
+      text-align:center ;
+      background-color: rgb(228, 198, 255);
+    border:2px solid green;
+    border-radius:3px;
+    height:30px;
+    width:100px;
+    font-weight:bold;
+    color:darkgreen;
+    margin:10px 5px 5px 70px;  
+    }
+  #butt:hover {
+    background-color: #99ff99;    
+    }
+    
+  
+  #output {
+    border:1px solid lightgray;
+    border-radius:5px;
+    min-height:60px;
+    padding:8px;
+    margin:60px 5px 5px 5px;
+    font-weight:bold;
+    color:darkgreen;   
+    word-break:break-word;
+    } 
+    
+    #text {
+     margin:0;
+     display:none;
+     border:1px solid lightgray;
+     color:darkgreen;
+     }
+    .dot {
+      
+      display:inline;
+      padding:0;
+      margin:0;
+      font-size:25px;
+      border:none;
+     }
+    #allInput {
+     /* border:1px solid black;  */
+      width:270px;
+      margin:auto;
+      padding-left:25px;
+     }
+    #b, #b1, #b2, #b3, #b4, #b5 {
+     display:block;
+     text-align:left;
+     border:1px solid lightgray;
+     border-radius:4px;
+     margin:5px;
+     padding:2px;
+    }
+    #b {
+     border:1px solid #bbb;
+     
+    }
+   

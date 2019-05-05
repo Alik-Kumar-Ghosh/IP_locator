@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>IP locator</title>
+    <link rel="icon" type="image/ico" href="images/ip_locator.png" />
+  </head>
+  <body>
+    <div id="container">
+      <br>
+      <img src="images/ip_locator.png" class="rounded" alt="image" id="img1">      <div id="intro">
+       IP Address Location Finder
+      </div>
+      <p id="intro"> Please enter an IP address to check your info
+      </p>
+      <div id="allInput">
+        <input type="text" min="1" maxlength="3" id="input1" /><p class="dot">.</p>
+        <input type="text" min="1" maxlength="3" id="input2" /><p class="dot">.</p>
+        <input type="text" min="1" maxlength="3" id="input3" /><p class="dot">.</p>
+        <input type="text" min="1" maxlength="3" id="input4" />
+        <br />
+    <button id="butt" onclick="myFunc()"> Finder </button>
+    <br>
+    <a href="https://www.google.com/search?q=whats+my+ip&oq=whats+my+ip&aqs=chrome..69i57j0l5.2508j0j7&sourceid=chrome&ie=UTF-8" class="badge badge-info" id="whbutt" target="blank" >whats my IP</a>
+      </div>
+    <div class="text-nowrap" style="text-align: left;margin-left: 30px;">
+      Showing result for : <span id="ip" class="font-weight-bold"></span> <br>
+      1.Ip query status : <span id="stat" class="font-weight-bold"></span><br>
+      2.Country : <span id="country" class="font-weight-bold"></span><br>
+      3.City : <span id="city" class="font-weight-bold"></span><br>
+      4.Internet_service_provider : <span id="isp" class="font-weight-bold"></span><br>
+      5.Info_service_provider : <span id="as" class="font-weight-bold"></span><br>
+      6.Latitude : <span id="lat" class="font-weight-bold"></span><br>
+      7.Longitude : <span id="log" class="font-weight-bold"></span><br>
+      8.Region_name : <span id="regionName" class="font-weight-bold"></span> <br>
+      9.Region : <span id="region" class="font-weight-bold"></span><br>
+      10.Time zone : <span id="timezone" class="font-weight-bold"></span><br>
+      11.Zip : <span id="zip" class="font-weight-bold"></span><br>
+      12.Org : <span id="org" class="font-weight-bold"><br>
+        <br>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
