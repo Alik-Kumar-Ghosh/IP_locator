@@ -64,7 +64,7 @@ function mydata(take){
    } 
    else 
    {
-     no()
+     no();
    }
 
 }
