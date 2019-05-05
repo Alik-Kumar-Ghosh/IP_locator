@@ -30,8 +30,9 @@ if (b.length == 4) {
    if (c) {
      console.log(ip)
 url='https://ip-api.com/json/'+ip
-fetch(url)
-    { mode: 'no-cors',
+fetch('http://bar.com/data.json', {
+  mode: 'no-cors' // 'cors' by default
+}
 .then((resp) => resp.json())}
 .then(function(data) 
 {   console.log(data)
