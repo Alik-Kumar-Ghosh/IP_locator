@@ -29,9 +29,9 @@ if (b.length == 4) {
    }
    if (c) {
      console.log(ip)
-url='https://ip-api.com/json/'+ip
+url='http://ip-api.com/json/'+ip
 fetch(url)
-.then((resp) => resp.json())}
+.then((resp) => resp.json())
 .then(function(data) 
 {   console.log(data)
     const result = JSON.stringify(data)
