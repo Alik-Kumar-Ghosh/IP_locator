@@ -31,7 +31,8 @@ if (b.length == 4) {
      console.log(ip)
 url='https://ip-api.com/json/'+ip
 fetch(url)
-.then((resp) => resp.json())
+    { mode: 'no-cors',
+.then((resp) => resp.json())}
 .then(function(data) 
 {   console.log(data)
     const result = JSON.stringify(data)
