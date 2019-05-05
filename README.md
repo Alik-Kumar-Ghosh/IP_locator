@@ -13,18 +13,18 @@ fetch('your url')
   ```
 >what all it shows
 
-1.Ip query status 
+1.Ip query status <br>
 2.Country <br>
-3.City 
-4.Internet_service_provider 
-5.Info_service_provider 
-6.Latitude 
-7.Longitude 
-8.Region_name 
-9.Region 
-10.Time zone 
-11.Zip 
-12.Org 
+3.City <br>
+4.Internet_service_provider <br>
+5.Info_service_provider <br>
+6.Latitude <br>
+7.Longitude <br>
+8.Region_name <br>
+9.Region <br>
+10.Time zone <br>
+11.Zip <br>
+12.Org <br>
 
 ![screenshot1](https://github.com/alikthehacker/IP_locator/blob/master/images/screenshot1.jpg)
 ![screenshot2](https://github.com/alikthehacker/IP_locator/blob/master/images/screenshot2.jpg)
